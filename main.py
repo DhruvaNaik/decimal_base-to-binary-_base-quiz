@@ -26,7 +26,7 @@ try:
   
   if ans_num == num:
     flag = str_xor(flag_enc, 'enkidu')
-    print('That is correct! Here\'s your flag: ' + flag)
+    print('That is correct!')
   else:
     print(str(ans_num) + ' and ' + str(num) + ' are not equal.')
   
